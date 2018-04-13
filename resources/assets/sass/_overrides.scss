@@ -1,0 +1,23 @@
+.dropdown {
+    position: relative;
+    .dropdown-menu{
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        z-index: 1000;
+        background-color: white;
+        min-width: 200px;
+        text-align: left;
+        box-shadow: 0 0 1px rgba(66, 180, 250, 0.15), 20px 55px -8px rgba(66, 180, 250, 0.15);
+    }
+    &.is-aligned-right .dropdown-menu{
+        right: 0;
+        left: auto;
+    }
+
+    &is-open .dropdown-menu{
+        display: block;
+    }
+
+}
