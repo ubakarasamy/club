@@ -16179,6 +16179,18 @@ label.panel-block:hover {
   background: rgba(255, 56, 96, 0.05);
 }
 
+/* 
+ *  Text Overrides
+ */
+
+.is-muted {
+  color: #b5b5b5;
+}
+
+/* 
+ *  Dropdown Override
+ */
+
 .dropdown {
   position: relative;
 }
